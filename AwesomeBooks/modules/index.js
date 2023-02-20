@@ -25,7 +25,7 @@ class BookArray {
 
 const library = new BookArray();
 
-function display() {
+const display = () => {
   if (localStorage.getItem('library') == null) {
     library.books = [];
   } else {
@@ -52,16 +52,12 @@ addBtn.addEventListener('click', () => {
   display();
 });
 
-function removeBtn(bookID) {
-  library.remove(bookID);
-  display();
-}
-
 const lib = document.querySelector('.library');
 lib.addEventListener('click', (e) => {
   if (e.target.classList.contains('removeBtn')) {
     const bookID = e.target.id;
-    removeBtn(bookID);
+    library.remove(bookID);
+    display();
   }
 });
 
@@ -86,7 +82,7 @@ links.forEach((link) => {
   });
 });
 
-function getDaySuffix(day) {
+const getDaySuffix = (day) => {
   if (day >= 11 && day <= 13) {
     return 'th';
   }
