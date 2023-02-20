@@ -53,13 +53,16 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-> *Awesome Books* is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
+*Awesome Books* is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
+
+- Integrate linters to the project. Learned about it's importance and how to make a robust project implementing linters
+- Implement js to manipulate data and create dynamic pages
+- Accomplish the requirements through a project based on the HTML and CSS
+- Apply ES6 as a new trend on JS structure
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -86,8 +89,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[List book library]**
 - **[Add a new book to the library]**
 - **[Remove a selected book from the library]**
@@ -98,7 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Not a live demo for the moment
+> [Use this link to see our live demo!!](https://evillaz.github.io/awesome-books/AwesomeBooks/)
 
 <!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
@@ -120,19 +121,17 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:evillaz/awesome-books.git
 ```
---->
 
 ### Install
 
-Install this project with:
-
+Only running the html file would be enough!
 <!--
 Example command:
 
@@ -144,7 +143,12 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the html file.
+And navigate through the "List", "Add New" and "Contact" tabs on the navigation bar.
+ 
+- **Add New:** Add new books, with the respective authors, to the library.
+- **List:** Check books list from the library
+- **Contact:** Check our contact info
 
 <!--
 Example command:
@@ -156,27 +160,27 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests:
 
-<!--
-Example command:
+1. Go to the "Add New" tab on the navigation bar.
+2. Try adding new books with the respective author.
+3. Go to the "List" tab on the navigation bar.
+4. Try remove a book from the List.
+5. By clicking on remove shuld remove the selected book from the list.
 
-```sh
-  bin/rails test test/models/article_test.rb
+<!--Example command:
+
+```
+  git status
 ```
 --->
 
 ### Deployment
 
+
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+Visual studio code, another realiable code editor or a Web browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,10 +206,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Add styling through CSS]**
-- [ ] **[Create a complete website with navigation]**
+- This was an enclosed activity no future features will be uploaded
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +224,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project  don't doubt on make any comments or try to reach us out.
+If you like this project  don't doubt on make any comments or try to reach me out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,7 +232,7 @@ If you like this project  don't doubt on make any comments or try to reach us ou
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- Give credit to everyone who inspired your codebase. -->
 
 I would like to thank microverse for the opportunity on working each other as colleagues and the learning opportunities it brings us.
 
@@ -241,15 +242,13 @@ I would like to thank microverse for the opportunity on working each other as co
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- **Did you find hard to create this project?**
 
-<!-- - **[Question_1]**
+  - I tried my best and follow the guidelines to create this project. I got hard times on some of the workflow but i think i just have to keep learning everyday and give my best try every time.
 
-  - [Answer_1]
+- **What was your thinking process to solve the requirements?**
 
-- **[Question_2]**
-
-  - [Answer_2] --> 
+  - First i tried to address each one of the requirements and solve them individually to keep integrating them as i was progressing.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
