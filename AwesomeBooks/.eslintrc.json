@@ -1,14 +1,4 @@
 {
-  "settings": {
-    "import/resolver": {
-      "alias": {
-        "map": [
-          ["luxon", "./node_modules/luxon/src/luxon.js"]
-        ],
-        "extensions": [".js"]
-      }
-    }
-  },
   "env": {
     "browser": true,
     "es6": true,
