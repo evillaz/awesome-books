@@ -126,14 +126,14 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:evillaz/awesome-books.git
 ```
 
 ### Install
 
 Install this project with:
 
-No installation needed yet
+Only running the html file would be enough!
 <!--
 Example command:
 
@@ -146,6 +146,11 @@ Example command:
 ### Usage
 
 To run the project, execute the html file.
+And navigate through the "List", "Add New" and "Contact" tabs on the navigation bar.
+
+**Add New:** Add new books, with the respective authors, to the library.
+**List:** Check books list from the library
+**Contact:** Check our contact info
 
 <!--
 Example command:
@@ -157,16 +162,20 @@ Example command:
 
 ### Run tests
 
-To run tests, run the following command:
+To run tests:
+
+1. Go to the "Add New" tab on the navigation bar.
+2. Try adding new books with the respective author.
+3. Go to the "List" tab on the navigation bar.
+4. Try remove a book from the List.
+5. By clicking on remove shuld remove the selected book from the list.
 
 Example command:
-
+<!--
 ```
   git status
 ```
-
-And it should show no changes
-
+--->
 
 ### Deployment
 
