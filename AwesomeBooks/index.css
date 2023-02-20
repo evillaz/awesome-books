@@ -1,0 +1,242 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  font-family: sans-serif;
+  background-color: white;
+  overflow: hidden;
+  font-weight: bold;
+  -webkit-text-stroke: 0.02rem #000;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+#librarySection {
+  width: 98%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  gap: 2rem;
+}
+
+form * {
+  box-sizing: border-box;
+}
+
+.book-section {
+  flex-direction: column;
+  width: 97%;
+  padding: 1rem;
+}
+
+.book-section * {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.date {
+  align-self: flex-end;
+}
+
+.navbar {
+  width: auto;
+  height: max-content;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid black;
+  padding: 0.5rem;
+}
+
+.navbar h2,
+ul {
+  flex-shrink: 1;
+}
+
+.nav-links {
+  width: max-content;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.nav-links .active {
+  color: blue;
+}
+
+.linkname1,
+.linkname2,
+.linkname3 {
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  width: max-content;
+  padding: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  flex-grow: 1;
+  font-size: 0.8rem;
+}
+
+.linkname2 {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.library:not(:empty) {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  box-shadow: 3px 3px 0 0 #000 inset;
+  width: 97%;
+}
+
+.library > *:nth-child(even) {
+  background-color: lightgray;
+}
+
+.library > *:nth-child(odd) {
+  background-color: white;
+}
+
+.book {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.book > p {
+  margin: 0.5rem;
+  background-color: transparent;
+  -webkit-text-stroke: 0.02rem #000;
+  font-size: 1rem;
+}
+
+button {
+  box-shadow: 2px 2px 0 #000;
+}
+
+form button {
+  width: max-content;
+  align-self: flex-end;
+  margin: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.book > button {
+  margin: 0.2rem 0.5rem;
+}
+
+.divider {
+  width: 7rem;
+  margin: 1rem;
+  box-sizing: content-box;
+}
+
+#formSection {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
+}
+
+form {
+  flex-direction: column;
+  width: 45%;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+form input {
+  width: 100%;
+  font-size: 1rem;
+  height: 1.5rem;
+}
+
+.book button {
+  box-sizing: border-box;
+}
+
+#contactSection {
+  width: 90%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  gap: 2rem;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#contactSection p {
+  font-weight: lighter;
+}
+
+#contactSection ul {
+  padding: 0;
+  font-weight: lighter;
+}
+
+#contactSection ul li {
+  list-style: inside;
+  font-weight: lighter;
+}
+
+li a,
+li a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  width: 98%;
+  height: 2rem;
+  border: 4px solid black;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: antiquewhite;
+  margin-bottom: 1rem;
+}
+
+.footer-title {
+  margin-left: 30px;
+  background-color: antiquewhite;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 24px;
+  }
+}
