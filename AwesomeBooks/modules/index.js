@@ -1,5 +1,5 @@
 import Book from './Book.js';
-import { DateTime } from './luxon/src/luxon.js';
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const addBtn = document.getElementsByClassName('addBtn')[0];
 const bookLibrary = document.getElementsByClassName('library')[0];
