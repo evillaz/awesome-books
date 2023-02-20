@@ -16,11 +16,11 @@ module.exports = {
     },
     ],
     'no-param-reassign': 0,
-    "import/resolver": {
+    "import/resolver": [ 1,{
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
         moduleDirectory: ['node_modules', 'src/'],
     },
-    }
+    }]
   },
 };
