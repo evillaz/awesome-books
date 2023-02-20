@@ -1,12 +1,30 @@
-<!-- Logo placeholder 
-<div align="center">
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+<a name="readme-top"></a>
 
-  <h3><b>Microverse README Template</b></h3>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-</div>
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
 -->
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -33,40 +51,34 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [ROCK & ROLL HALL OF FAME 2023] <a name="about-project"></a>
+# 📖 [Awesome Books] <a name="about-project"></a>
 
-This is one of the first capstone projects i realized.
-
-**[ROCK & ROLL HALL OF FAME 2023]** is a responsive website project with css styling used to present the anually event of ROCK & ROLL HALL OF FAME
-
-- Integrate linters to the project. Learned about it's importance and how to make a robust project implementing linters
-- Implement js to manipulate data and create dynamic pages
-- Accomplish the requirements through a project based on the HTML and CSS
-
+> *Awesome Books* is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
-    <li><a href="https://reactjs.org/">CSS</a></li>
-    <li><a href="https://reactjs.org/">Java Script</a></li>
+    <li><a href="">HTML</a></li>
+    <li><a href="">JS</a></li>
   </ul>
 </details>
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">No servers are integrated on this project</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">No database is used on this project</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -74,30 +86,27 @@ This is one of the first capstone projects i realized.
 
 ### Key Features <a name="key-features"></a>
 
-- **A warm introduction into the ROCK & ROLL HALL OF FAME**
-- **First understandings on flex box management for HTML & CSS**
-- **Firs applies of Flexbox and Css gridbox**
-- **Responsive design**
-- **JS manipulation of DOM elements**
+> Describe between 1-3 key features of the application.
 
+- **[List book library]**
+- **[Add a new book to the library]**
+- **[Remove a selected book from the library]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-See a [Live Demo short video!!!](https://www.loom.com/share/8c6628508b8e407e93da00dbe5d2cf01)!!
+> Not a live demo for the moment
 
-We got our first live demo thanks to GitHub pages hosting>>>>
-
-- [Live Demo!!!](https://evillaz.github.io/capstone-project1/capstone/about.html)
+<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -111,19 +120,19 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-
+<!--
 Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
+--->
 
 ### Install
 
 Install this project with:
 
-No installation needed yet
 <!--
 Example command:
 
@@ -135,7 +144,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the html file.
+To run the project, execute the following command:
 
 <!--
 Example command:
@@ -149,27 +158,37 @@ Example command:
 
 To run tests, run the following command:
 
+<!--
 Example command:
 
+```sh
+  bin/rails test test/models/article_test.rb
 ```
-  git status
-```
-
-And it should show no changes
-
+--->
 
 ### Deployment
 
-
 You can deploy this project using:
 
-Visual studio code, another realiable code editor or a Web browser
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+👤 **Jorum Odiemo**
+
+- GitHub: [@githubhandle](https://github.com/JOdiemo)
+- Twitter: [@twitterhandle](https://twitter.com/jorumodiemo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/jorumodiemo)
 
 👤 **Eduardo Villarreal**
 
@@ -183,7 +202,10 @@ Visual studio code, another realiable code editor or a Web browser
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- This was an enclosed activity no future features will be uploaded
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add styling through CSS]**
+- [ ] **[Create a complete website with navigation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project  don't doubt on make any comments or try to reach me out.
+If you like this project  don't doubt on make any comments or try to reach us out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,32 +231,31 @@ If you like this project  don't doubt on make any comments or try to reach me ou
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin for her original design of Creative Commons Global Summit 2015, as it served as an inspiration for this project.
+> Give credit to everyone who inspired your codebase.
 
- *[Original Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I would like to thank microverse for the opportunity on working each other as colleagues and the learning opportunities it brings us.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
+> Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **Did you find hard to create this project?**
+<!-- - **[Question_1]**
 
-  - I tried my best and follow the guidelines to create this project. I got hard times on some of the workflow but i think i just have to keep learning everyday and give my best try every time.
+  - [Answer_1]
 
-- **What was your thinking process to solve the requirements?**
+- **[Question_2]**
 
-  - First i tried to address each one of the requirements and solve them individually to keep integrating them as i was progressing.
-  
+  - [Answer_2] --> 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 This project is [MIT](/LICENSE.md) licensed.
 
