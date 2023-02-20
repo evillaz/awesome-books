@@ -59,8 +59,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -85,8 +83,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[List book library]**
 - **[Add a new book to the library]**
@@ -120,19 +116,19 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
+No installation needed yet
 <!--
 Example command:
 
@@ -144,7 +140,7 @@ Example command:
 
 ### Usage
 
-To run the project, execute the following command:
+To run the project, execute the html file.
 
 <!--
 Example command:
@@ -158,25 +154,21 @@ Example command:
 
 To run tests, run the following command:
 
-<!--
 Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
 ```
---->
+  git status
+```
+
+And it should show no changes
+
 
 ### Deployment
 
+
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+Visual studio code, another realiable code editor or a Web browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,12 +194,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<!--  Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Add styling through CSS]**
-- [ ] **[Create a complete website with navigation]** -->
-
-The project is currently completed. :D!
+- This was an enclosed activity no future features will be uploaded
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -225,7 +212,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project  don't doubt on make any comments or try to reach us out.
+If you like this project  don't doubt on make any comments or try to reach me out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,15 +230,13 @@ I would like to thank microverse for the opportunity on working each other as co
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-<!-- Add at least 2 questions new developers would ask when they decide to use your project. -->
+- **Did you find hard to create this project?**
 
-<!-- - **[Question_1]**
+  - I tried my best and follow the guidelines to create this project. I got hard times on some of the workflow but i think i just have to keep learning everyday and give my best try every time.
 
-  - [Answer_1]
+- **What was your thinking process to solve the requirements?**
 
-- **[Question_2]**
-
-  - [Answer_2] --> 
+  - First i tried to address each one of the requirements and solve them individually to keep integrating them as i was progressing.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
