@@ -131,8 +131,6 @@ Example commands:
 
 ### Install
 
-Install this project with:
-
 Only running the html file would be enough!
 <!--
 Example command:
@@ -170,8 +168,8 @@ To run tests:
 4. Try remove a book from the List.
 5. By clicking on remove shuld remove the selected book from the list.
 
-Example command:
-<!--
+<!--Example command:
+
 ```
   git status
 ```
