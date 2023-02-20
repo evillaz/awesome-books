@@ -98,7 +98,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Not a live demo for the moment
+> [Use this link to see our live demo!!](https://evillaz.github.io/awesome-books/AwesomeBooks/)
 
 <!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
@@ -202,10 +202,12 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+<!--  Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Add styling through CSS]**
-- [ ] **[Create a complete website with navigation]**
+- [ ] **[Create a complete website with navigation]** -->
+
+The project is currently completed. :D!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,7 +233,7 @@ If you like this project  don't doubt on make any comments or try to reach us ou
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+<!-- Give credit to everyone who inspired your codebase. -->
 
 I would like to thank microverse for the opportunity on working each other as colleagues and the learning opportunities it brings us.
 
@@ -241,7 +243,7 @@ I would like to thank microverse for the opportunity on working each other as co
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+<!-- Add at least 2 questions new developers would ask when they decide to use your project. -->
 
 <!-- - **[Question_1]**
 
