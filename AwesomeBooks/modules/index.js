@@ -41,7 +41,7 @@ const display = () => {
     `;
   });
   bookLibrary.innerHTML = bookDisplay;
-}
+};
 
 addBtn.addEventListener('click', () => {
   const author = document.getElementById('author').value.trim();
@@ -96,7 +96,7 @@ const getDaySuffix = (day) => {
     default:
       return 'th';
   }
-}
+};
 
 const now = DateTime.local();
 const month = now.monthLong;
