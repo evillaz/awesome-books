@@ -1,4 +1,5 @@
 import Book from './Book.js';
+import { DateTime } from "../node_modules/luxon/src/luxon.js";
 
 const addBtn = document.getElementsByClassName('addBtn')[0];
 const bookLibrary = document.getElementsByClassName('library')[0];
@@ -101,18 +102,18 @@ function getDaySuffix(day) {
   }
 }
 
-const currentDate = new Date();
-const month = currentDate.toLocaleString('default', { month: 'long' });
-const day = currentDate.getDate();
-const daySuff = getDaySuffix(day);
-const year = currentDate.getFullYear();
-const time = currentDate.toLocaleString('en-US', {
-  hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true,
-});
+const now = DateTime.local();
+const month = now.monthLong;
+const day = now.day;
+const suffix = getDaySuffix(day);
+const year = now.year;
+const hour = now.toFormat('h');
+const minute = now.toFormat('mm');
+const second = now.toFormat('ss');
+const meridiem = now.toFormat('a');
+const formatted = `${month} ${day}${suffix}, ${year}, ${hour}:${minute}:${second} ${meridiem}`;
 
-const formattedDate = `${month} ${day}${daySuff}, ${year}, ${time}`;
-
-document.getElementById('date').textContent = formattedDate;
+document.getElementById('date').textContent = formatted;
 
 window.addEventListener('DOMContentLoaded', () => {
   display();
