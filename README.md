@@ -147,10 +147,10 @@ Example command:
 
 To run the project, execute the html file.
 And navigate through the "List", "Add New" and "Contact" tabs on the navigation bar.
-
-**Add New:** Add new books, with the respective authors, to the library.
-**List:** Check books list from the library
-**Contact:** Check our contact info
+ 
+- **Add New:** Add new books, with the respective authors, to the library.
+- **List:** Check books list from the library
+- **Contact:** Check our contact info
 
 <!--
 Example command:
