@@ -1,4 +1,14 @@
 {
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["luxon", "./node_modules/luxon/src/luxon.js"]
+        ],
+        "extensions": [".js"]
+      }
+    }
+  },
   "env": {
     "browser": true,
     "es6": true,
@@ -16,15 +26,7 @@
     "eol-last": "off",
     "import/extensions": [ 1, {
       "js": "always", "json": "always"
-    }],
-    "import/resolver": {
-      "alias": {
-        "map": [
-          ["luxon", "./node_modules/luxon/src/luxon.js"]
-        ],
-        "extensions": [".js"]
-      }
-    }
+    }]
   },
   "ignorePatterns": [
     "dist/",
