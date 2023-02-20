@@ -1,5 +1,5 @@
 import Book from './Book.js';
-import { DateTime } from "../node_modules/luxon/src/luxon.js";
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const addBtn = document.getElementsByClassName('addBtn')[0];
 const bookLibrary = document.getElementsByClassName('library')[0];
@@ -104,9 +104,9 @@ function getDaySuffix(day) {
 
 const now = DateTime.local();
 const month = now.monthLong;
-const day = now.day;
+const { day } = now;
 const suffix = getDaySuffix(day);
-const year = now.year;
+const { year } = now;
 const hour = now.toFormat('h');
 const minute = now.toFormat('mm');
 const second = now.toFormat('ss');
