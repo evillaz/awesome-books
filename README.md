@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-> *Awesome Books* is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
+*Awesome Books* is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
 
