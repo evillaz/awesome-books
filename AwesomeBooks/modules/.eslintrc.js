@@ -15,6 +15,7 @@ module.exports = {
       js: 'always',
     },
     ],
+    'import/no-unresolved': 'off',
     'no-param-reassign': 0,
   },
 };

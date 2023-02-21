@@ -1,3 +1,4 @@
+import { DateTime } from 'luxon';
 import Book from './Book.js';
 
 const addBtn = document.getElementsByClassName('addBtn')[0];
@@ -24,7 +25,7 @@ class BookArray {
 
 const library = new BookArray();
 
-function display() {
+const display = () => {
   if (localStorage.getItem('library') == null) {
     library.books = [];
   } else {
@@ -40,7 +41,7 @@ function display() {
     `;
   });
   bookLibrary.innerHTML = bookDisplay;
-}
+};
 
 addBtn.addEventListener('click', () => {
   const author = document.getElementById('author').value.trim();
@@ -51,16 +52,12 @@ addBtn.addEventListener('click', () => {
   display();
 });
 
-function removeBtn(bookID) {
-  library.remove(bookID);
-  display();
-}
-
 const lib = document.querySelector('.library');
 lib.addEventListener('click', (e) => {
   if (e.target.classList.contains('removeBtn')) {
     const bookID = e.target.id;
-    removeBtn(bookID);
+    library.remove(bookID);
+    display();
   }
 });
 
@@ -85,7 +82,7 @@ links.forEach((link) => {
   });
 });
 
-function getDaySuffix(day) {
+const getDaySuffix = (day) => {
   if (day >= 11 && day <= 13) {
     return 'th';
   }
@@ -99,20 +96,20 @@ function getDaySuffix(day) {
     default:
       return 'th';
   }
-}
+};
 
-const currentDate = new Date();
-const month = currentDate.toLocaleString('default', { month: 'long' });
-const day = currentDate.getDate();
-const daySuff = getDaySuffix(day);
-const year = currentDate.getFullYear();
-const time = currentDate.toLocaleString('en-US', {
-  hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true,
-});
+const now = DateTime.local();
+const month = now.monthLong;
+const { day } = now;
+const suffix = getDaySuffix(day);
+const { year } = now;
+const hour = now.toFormat('h');
+const minute = now.toFormat('mm');
+const second = now.toFormat('ss');
+const meridiem = now.toFormat('a');
+const formatted = `${month} ${day}${suffix}, ${year}, ${hour}:${minute}:${second} ${meridiem}`;
 
-const formattedDate = `${month} ${day}${daySuff}, ${year}, ${time}`;
-
-document.getElementById('date').textContent = formattedDate;
+document.getElementById('date').textContent = formatted;
 
 window.addEventListener('DOMContentLoaded', () => {
   display();
